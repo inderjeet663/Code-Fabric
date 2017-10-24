@@ -1,0 +1,47 @@
+
+.frame {
+                text-align: center;
+           
+                height: 258px;
+				background-size : 100% 100%;
+				background-repeat: no-repeat;
+                                border:solid 2px white;
+                                border-radius:10px;
+                 
+		}
+        .frame a {
+		padding : 10px ;
+		display : block;
+		text-decoration:none;
+		color : white;
+		border-radius: 5px;
+		box-shadow : 0px 4px 6px black;
+		font-size : larger;
+		
+		background-color : #539e4e;
+		background-size:40px 50px;
+	}
+	.img-1 {
+	background-image:url(img/notes1.jpg);	
+	}
+        .img-2 {
+		background-image:url(img/books1.jpg);
+		
+	}
+	.img-3{
+		background-image:url(img/sites1.jpg);
+	}
+	.img-4 {
+		background-image:url(img/lecture1.jpg);
+
+	}
+@media only screen and (max-width: 500px){
+.frame{
+        height: 200px;
+            width: 40%;
+}
+	
+           }
+  
+       
+        
